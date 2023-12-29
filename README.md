@@ -14,7 +14,7 @@ pip install PerplexityIPYNB
 ## Usage
 
 ```python
-from PerplexityIPYNB import PerplexityIPYNB
+from PerplexityIPYNB import Perplexity
 
 ai = Perplexity()
 prompt = input()
