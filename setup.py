@@ -35,7 +35,7 @@ setup(
         "Programming Language :: Python :: Implementation :: CPython",
         "Programming Language :: Python :: Implementation :: PyPy",
     ],
-    packages=find_packages(exclude=[".github"]),
+    packages=find_packages(),
     install_requires=[
         "requests",
         "websocket-client",
