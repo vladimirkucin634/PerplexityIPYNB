@@ -11,6 +11,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/vladimirkucin634/PerplexityIPYNB",
     author="vladimirkucin634",
+    author_email="vladimirkucin634@mail.ru",
     license="MIT",
     keywords=[
         "artificial-intelligence",
