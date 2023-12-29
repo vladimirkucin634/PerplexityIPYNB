@@ -1,6 +1,3 @@
-__author__ = "Ruu3f"
-__version__ = "1.0.2"
-
 from uuid import uuid4
 from time import sleep, time
 from threading import Thread
