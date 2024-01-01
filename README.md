@@ -26,3 +26,7 @@ print(ai.RUN(prompt))
 %%perplexity
 prompt
 ```
+or 
+```python
+%perplexity prompt
+```
