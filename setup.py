@@ -5,7 +5,7 @@ with open("README.md", encoding="utf-8") as f:
 
 setup(
     name="PerplexityIPYNB",
-    version="1.0",
+    version="1.01",
     description="Perplexity AI in iPython Notebooks",
     long_description=README,
     long_description_content_type="text/markdown",
