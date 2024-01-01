@@ -1,3 +1,6 @@
+__author__ = "vladimirkucin634"
+__version__ = "1.01"
+
 from uuid import uuid4
 from time import sleep, time
 from threading import Thread
@@ -6,6 +9,7 @@ from random import getrandbits
 from websocket import WebSocketApp
 from requests import Session
 from IPython.display import display, Markdown
+from IPython.core.magic import register_line_cell_magic
 
 class Perplexity:
     def __init__(self):
@@ -115,3 +119,12 @@ class Perplexity:
 
     def RUN(self, prompt):
         return display(Markdown([i['answer'] for i in list(Perplexity().generate_answer(prompt))][0]))
+    
+    @register_line_cell_magic
+    def perplexity(line, cell=None):
+        if cell is None:
+            result = Perplexity().RUN(line)
+            return result
+        else:
+            result = Perplexity().RUN(cell) 
+            return result
