@@ -1,6 +1,6 @@
 # PerplexityIPYNB
 
-PerplexityIPYNB is a Python module that allows you to interact with the Perplexity AI.
+PerplexityIPYNB is a Python module that allows you to interact with the Perplexity AI.\
 *New in 1.01: magic commands support for cell and row*
 ## Installation
 
