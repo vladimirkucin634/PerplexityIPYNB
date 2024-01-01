@@ -12,7 +12,7 @@ pip install PerplexityIPYNB
 
 
 ## Usage
-
+### Functional
 ```python
 from PerplexityIPYNB import Perplexity
 
@@ -20,4 +20,9 @@ ai = Perplexity()
 prompt = input()
 
 print(ai.RUN(prompt))
+```
+### Magic commands
+```python
+%%perplexity
+prompt
 ```
