@@ -5,7 +5,7 @@ with open("README.md", encoding="utf-8") as f:
 
 setup(
     name="PerplexityIPYNB",
-    version="1.01",
+    version="1.1.1",
     description="Perplexity AI in iPython Notebooks",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -36,10 +36,10 @@ setup(
         "Programming Language :: Python :: Implementation :: CPython",
         "Programming Language :: Python :: Implementation :: PyPy",
     ],
-    packages=find_packages(),
+    packages=find_packages(exclude=[".github"]),
     install_requires=[
         "requests",
-        "websocket-client",
+        "websocket-client==1.6.2",
     ],
     project_urls={
         "Source": "https://github.com/vladimirkucin634/PerplexityIPYNB",
