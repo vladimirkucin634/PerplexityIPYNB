@@ -1,5 +1,5 @@
 __author__ = "vladimirkucin634"
-__version__ = "1.01"
+__version__ = "1.1.1"
 
 from uuid import uuid4
 from time import sleep, time
